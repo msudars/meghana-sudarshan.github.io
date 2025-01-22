@@ -3,67 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Meghana Sudarshan">
+    <meta name="description" content="Meghana Sudarshan's Portfolio - Ph.D. Candidate specializing in Machine Learning, Battery Informatics, and Time Series Analysis.">
     <title>Meghana Sudarshan - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+        header {
+            background: #444;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        nav {
+            text-align: center;
+            margin-top: 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h1, h2, h3 {
+            color: #444;
+        }
+        .resume-download {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 15px;
+            color: #fff;
+            background: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .resume-download:hover {
+            background: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #444;
+            color: #fff;
+            margin-top: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Meghana Sudarshan</h1>
+        <img src="profile.jpg" alt="Meghana Sudarshan">
+        <p>Ph.D. Candidate specializing in Machine Learning, Battery Informatics, and Time Series Analysis.</p>
         <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a Ph.D. candidate at Purdue University specializing in Machine Learning, Battery Informatics, and Time Series Analysis. 
+                My research focuses on degradation predictive modeling, synthetic data generation, and advanced analytical methods. 
+                I am passionate about applying my expertise to solve cutting-edge problems in battery and ML technologies.
+            </p>
+            <a href="Meghana-Sudarshan-resume.pdf" class="resume-download" download>Download My Resume</a>
+        </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Ph.D. candidate specializing in Machine Learning, Battery Informatics, and Time Series Analysis. I aim to contribute to cutting-edge battery and ML technologies to facilitate sustainable energy solutions.</p>
-    </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Purdue University</strong> - Ph.D. Candidate in Aeronautics and Astronautics (Expected Aug 2025)</li>
+                <li><strong>Purdue University</strong> - Masters in Aeronautics and Astronautics (2019 - 2021)</li>
+                <li><strong>RV College of Engineering</strong> - Bachelors in Aerospace Engineering (2015 - 2019)</li>
+            </ul>
+        </section>
 
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li><strong>Programming:</strong> Python, MATLAB, Fortran</li>
-            <li><strong>Software & Tools:</strong> Abaqus, Ansys, TensorBoard</li>
-            <li><strong>Specializations:</strong> Battery Management Systems, Optimization Techniques</li>
-        </ul>
-    </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Graduate Research Assistant</strong>, Purdue University - Developed ML models for battery degradation prediction.</li>
+                <li><strong>Assistant Member of Technical Staff</strong>, And Battery Aero (ABA) - Optimized battery materials for electric aircraft.</li>
+                <li><strong>Summer Research Intern</strong>, Indian Institute of Science - Contributed to research on helicopter inflow equations.</li>
+            </ul>
+        </section>
 
-    <section id="experience">
-        <h2>Professional Experience</h2>
-        <h3>Purdue University</h3>
-        <p><em>Graduate Research Assistant (2021 - Present)</em></p>
-        <ul>
-            <li>Developed LIB cycle life prediction models for battery management systems.</li>
-            <li>Designed DegradAI for accelerated degradation testing using ML.</li>
-        </ul>
-        <h3>And Battery Aero</h3>
-        <p><em>Assistant Member of Technical Staff (Summer 2024)</em></p>
-        <ul>
-            <li>Optimized battery materials for electric aircraft.</li>
-        </ul>
-    </section>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Programming: Python, MATLAB, Fortran</li>
+                <li>Software: Abaqus, Ansys, Solidworks</li>
+                <li>Machine Learning: Neural Networks, Time Series Analysis</li>
+                <li>Specializations: Battery Management Systems, Optimization Techniques</li>
+            </ul>
+        </section>
 
-    <section id="publications">
-        <h2>Publications</h2>
-        <ol>
-            <li>Meghana Sudarshan et al., “DegradAI: Long-Term Capacity Degradation Prediction for Lithium-Ion Batteries” - Journal of Energy Storage (Submitted)</li>
-            <li>Jaya Vikeswara Rao Vajja, Meghana Sudarshan et al., “In Operando Health Monitoring for Lithium-Ion Batteries” - Batteries (2024)</li>
-        </ol>
-    </section>
+        <section id="projects">
+            <h2>Selected Projects</h2>
+            <ul>
+                <li><strong>Image Transformer with DeiT:</strong> Fine-tuned DeiT for classification tasks, achieving high accuracy.</li>
+                <li><strong>Neural Network for Lithium-ion Battery Performance:</strong> Developed an on-device neural network for efficient analysis.</li>
+                <li><strong>Regression ML Model for Finite Element Simulations:</strong> Achieved less than 4% error on stress test data.</li>
+            </ul>
+        </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:sudarshan.meghana@gmail.com">sudarshan.meghana@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/meghanasudarshan/" target="_blank">My LinkedIn Profile</a></p>
-        <p>Google Scholar: <a href="https://scholar.google.com/citations?user=NRkEmQEAAAAJ&hl=en" target="_blank">My Google Scholar Profile</a></p>
-    </section>
-
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:sudarshan.meghana@gmail.com">sudarshan.meghana@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/meghanasudarshan/" target="_blank">linkedin.com/in/meghanasudarshan</a></p>
+            <p>Google Scholar: <a href="https://scholar.google.com/citations?user=NRkEmQEAAAAJ&hl=en" target="_blank">Google Scholar Profile</a></p>
+        </section>
+    </div>
     <footer>
         <p>&copy; 2025 Meghana Sudarshan</p>
     </footer>
