@@ -6,72 +6,65 @@
     <meta name="author" content="Meghana Sudarshan">
     <meta name="description" content="Meghana Sudarshan's Portfolio - Ph.D. Candidate specializing in Machine Learning, Battery Informatics, and Time Series Analysis.">
     <title>Meghana Sudarshan - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            color: #333;
-            background-color: #f4f4f4;
-            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #343a40;
+            line-height: 1.8;
         }
         header {
-            background: #444;
+            background: linear-gradient(135deg, #35394f, #0056b3);
             color: #fff;
-            padding: 20px 0;
             text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            font-family: 'Lora', serif;
+            font-size: 2.5rem;
+            margin: 10px 0;
         }
         header img {
-            width: 150px;
-            height: 150px;
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
+            margin: 20px 0;
+            border: 4px solid #fff;
+        }
+        header p {
+            font-size: 1.2rem;
             margin-top: 10px;
         }
         nav {
-            text-align: center;
-            margin-top: 15px;
+            margin-top: 20px;
         }
         nav a {
             color: #fff;
             text-decoration: none;
             margin: 0 15px;
-            font-weight: bold;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
         }
         .container {
-            width: 90%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
+            width: 85%;
+            max-width: 1000px;
+            margin: 40px auto;
             background: #fff;
-            margin-top: 20px;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
         }
-        section {
-            margin-bottom: 20px;
-        }
-        h1, h2, h3 {
-            color: #444;
-        }
-        .resume-download {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 10px 15px;
-            color: #fff;
-            background: #007BFF;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .resume-download:hover {
-            background: #0056b3;
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background: #444;
-            color: #fff;
-            margin-top: 20px;
+        h2 {
+            font-family: 'Lora', serif;
+            color: #0056b3;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
         }
         ul {
             list-style: none;
@@ -79,20 +72,64 @@
         }
         ul li {
             margin-bottom: 10px;
+            font-size: 1rem;
+        }
+        p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+        .resume-download {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+        }
+        .resume-download:hover {
+            background: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #343a40;
+            color: #fff;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ol li {
+            margin-bottom: 15px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Meghana Sudarshan</h1>
         <img src="profile.jpg" alt="Meghana Sudarshan">
-        <p>Ph.D. Candidate specializing in Machine Learning, Battery Informatics, and Time Series Analysis.</p>
+        <h1>Meghana Sudarshan</h1>
+
+        <p>Ph.D. Candidate specializing in Machine Learning & Battery Informatics </p>
         <nav>
-            <a href="#about">About Me</a>
             <a href="#education">Education</a>
             <a href="#experience">Experience</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
+            <a href="#papers">Conference Presentations</a>
+            <a href="#papers">Journal Publications</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -128,20 +165,52 @@
         <section id="skills">
             <h2>Technical Skills</h2>
             <ul>
-                <li>Programming: Python, MATLAB, Fortran</li>
-                <li>Software: Abaqus, Ansys, Solidworks</li>
+                <li>Programming: Proficient in Python (Pandas, PyTorch, Flask, Scikit-learn, Matplotlib, TensorBoard, PyBamm), MATLAB, Fortran, Mathematica</li>
+                <li>Software \& Tools: Battery Testers (Neware, Arbin), LiB Disassembly, EIS Spectroscopy, other engineering tools such as Abaqus, Ansys, Tecplot, and SolidWorks</li>
                 <li>Machine Learning: Neural Networks, Time Series Analysis</li>
-                <li>Specializations: Battery Management Systems, Optimization Techniques</li>
             </ul>
         </section>
 
+
+         <section id="papers">
+                    <h2>Conference Presentations</h2>
+                    <ol>
+                        <li>Meghana Sudarshan, Jaya Vikeswara Rao Vajja, Mahavir Singh, Low Data Machine Learning Framework for Accelerated Lithium-Ion Battery Degradation Prediction, 247th ECS Meeting, Montréal, Canada, from May 18 – May 22, 2025 (Submitted)</li>
+                        <li>Jaya Vikeswara Rao Vajja, Meghana Sudarshan, Brian Chuanyu Chang, Vikas Tomar, "Predicting Rapid Degradation Onset in Lithium-Ion Batteries during Real-Time Operation Using Machine Learning", NASA Aerospace Battery Workshop, Huntsville, AL, November 19-21, 2024</li>
+                        <li>Marco Herbsommer, Sushrut Karmarkar, Meghana Sudarshan, Mahavir Singh, Vikas Tomar, Deep neural network driven combined THz-Raman spectroscopy technique for physical spectroscopic identification station, CBM Fall 2024 IAB Meeting South Bend, IN, Notre Dame, December 3rd, 2024</li>
+                        <li>Meghana Sudarshan, Vikas Tomar, "Enhancing Temperature-Dependent Li-ion Battery Behavior Predictions with Transfer Learning", 244th ECS meeting Sweden, 2023</li>
+                        <li>Casey Jones, Meghana Sudarshan, Vikas Tomar, "Data-Driven Prediction of Long- and Short-Term Li-ion Battery Degradation Using Public Datasets and Nail Puncture Testing", NASA battery workshop, 2022</li>
+                        <li>Meghana Sudarshan, Casey Jones, Vikas Tomar, "Prevention of thermal runaway in Li-ion batteries using machine learning model prediction", TMS 150th Annual meeting, 2022</li>
+                        <li>Meghana Sudarshan, Alexey Serov, Casey Jones, Atul Prakash, Vikas Tomar, "Data-driven model based comparison of public datasets for online state of charge estimation in Lithium-ion batteries", TMS 150th Annual meeting, 2022</li>
+                        <li>Meghana Sudarshan, Ayotomi Olokun, Abhijeet Dhiman, Vikas Tomar, "Comparison of deflagration modes in a granular energetic material due to spherical and planar impact", TMS 150th Annual meeting, 2022</li>
+                        <li>Meghana Sudarshan, Bing Li, Casey Jones, Vikas Tomar, "Use of internal temperature sensors for early detection of thermal runaway in large capacity Lithium-ion pouch cells", NATAS 2021</li>
+                        <li>Benjamin Rohit, Punya D Gowda, Nandini B Nagaraju, Meghana Sudarshan, "Life and Failure of Aircraft Wheels - A Review", IOP Conference Series: Material Science and Engineering 520 (1), 012002, 2019
+                        <li>Meghana Sudarshan, Punya D Gowda, Benjamin Rohit, Nandini B Nagraju, "Effect of Temperature on Local Stresses in Magnetoelectric Composites", IEEE 10th International Conference on Mechanical and Aerospace Engineering (ICMAE), 550-554, 2019
+                    </ol>
+
+                    <h2>Journal Publications</h2>
+                    <ol>
+                        <li>Meghana Sudarshan, Jaya Vikeswara Rao Vajja, Mahavir Singh, Vikas Tomar, "DegradAI: Long-Term Capacity Degradation Prediction for Lithium-Ion Batteries Using Limited Cycling Data", Journal of Energy Storage (Submitted)
+                        <li>Jaya Vikeswara Rao Vajja, Alexey Serov, Meghana Sudarshan, Mahavir Singh, Vikas Tomar, In Operando Health Monitoring for Lithium-Ion Batteries in Electric Propulsion Using Deep Learning, July 2024, Batteries 2024, 10(10), 355; doi: 10.3390/batteries10100355
+                        <li>Meghana Sudarshan, Ritesh Gautam, Mahavir Singh, R. Edwin Garci&#769;a, Vikas Tomar, "A comparative analysis of the influence of data-processing on battery health prediction by two machine learning algorithms", Journal of Energy Storage, 2024, vol. 10(10), 355, doi: 10.3390/batteries10100355
+                        <li>Meghana Sudarshan, Alexey Serov, Surya Mitra Ayalasomayajula, Casey Jones, R. Edwin Garci&#769;a, Vikas Tomar, "Data-Driven Autoencoder Neural Network for Onboard BMS Lithium-Ion Battery Degradation Prediction", Journal of Energy Storage, Volume 82, 110575, 2024
+                        <li>Jaya Vikeswara Rao Vajja, Alexey Serov, Meghana Sudarshan, Mahavir Singh, Vikas Tomar, "In Operando Health Monitoring for Lithium-Ion Batteries in Electric Propulsion Using Deep Learning, July 2024, Batteries 2024, 10(10), 355; doi: 10.3390/batteries10100355
+                        <li>Casey Jones, Meghana Sudarshan, Vikas Tomar, "Analysis of Capacity Decay, Impedence, and Heat Generation of Lithium-ion Batteries experiencing multiple simultaneous abuse conditions", Frontiers of Energy (Submitted)
+                        <li>Casey Jones, Meghana Sudarshan, Vikas Tomar, "Predicting the discharge capacity of a Lithium-ion battery after nail puncture using a Gaussian process regression with incremental capacity analysis", Energy, Volume  285, 129364, ISSN 0360-5442, 2023
+                        <li>Casey Jones, Meghana Sudarshan, R. Edwin Garci&#769;a, Vikas Tomar, "Direct measurement of internal temperatures of commercially available 18650 lithium-ion batteries", Scientific Reports 13, 14421, 2023
+                        <li>Casey Jones, Meghana Sudarshan, Alex Serov, Vikas Tomar, "Investigation of physical effects on prismatic lithium-ion cell electrodes after partial nail puncture using Raman spectroscopy and incremental capacity analysis", eTransportation 12, 100174
+                        <li>Abhijeet Dhiman, Nolan Simon Lewis, Tyler Dillard, Meghana Sudarshan, Vikas Tomar, "Advancements in mechanical raman spectroscopy for applications in energetic materials", Energetic Materials Frontiers 2 (3), 193-200, 2021
+                    </ol>
+        </section>
         <section id="projects">
             <h2>Selected Projects</h2>
             <ul>
-                <li><strong>Image Transformer with DeiT:</strong> Fine-tuned DeiT for classification tasks, achieving high accuracy.</li>
-                <li><strong>Neural Network for Lithium-ion Battery Performance:</strong> Developed an on-device neural network for efficient analysis.</li>
+                <li><strong>Image Transformer with DeiT:</strong> Fine-tuned DeiT for classification tasks on identifying species of butterflies and animals outperforming other methods in comparison to other CNN-based image classification methods.</li>
+                <li><strong>Neural Network for Lithium-ion Battery Performance:</strong> Worked on developing an on-device shallow neural networks for efficient computational performance on gradient descent methods using relaxation convex optimization techniques in comparison to non-convex loss functions. Networks like LSTM and RNN layers with convex optimization outperform the standard layers.</li>
                 <li><strong>Regression ML Model for Finite Element Simulations:</strong> Achieved less than 4% error on stress test data.</li>
-            </ul>
+                <li><strong>Multi-objective Optimization of propellant rank for Sounding Rocket:</strong> Genetic elistist algorithm was found to be preferable over goal attainment approach by comparing pareto fronts to determine structural properties of sounding rocket on applied loads.
+                <li><strong>System modeling of global food security through food loss prevention:</strong> Guidelines for decision-making bodies using system dynamics model and ROPE scope showing the importance of having procurement centers instead of middlemen in a food-chain based simulation with supply-chain data from India.
+               </ul>
         </section>
 
         <section id="contact">
